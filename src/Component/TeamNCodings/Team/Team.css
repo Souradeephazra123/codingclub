@@ -1,0 +1,29 @@
+.team-N {
+  width: 100%;
+  height: 170vh;
+  margin: 2rem auto;
+}
+.team-N .team-N-contact {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 2rem 6rem;
+}
+.team-N .team-N-contact .team-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  border: 1px solid black;
+  padding-bottom: 1rem;
+}
+.team-N .team-N-contact .team-col img {
+  width: 100%;
+}
+.team-N .team-N-contact .team-col .logo {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}

@@ -1,0 +1,14 @@
+.hero-coding {
+  width: 100%;
+  height: 50vh;
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.hero-coding img {
+  width: 100px;
+  height: auto;
+}

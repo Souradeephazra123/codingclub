@@ -1,0 +1,12 @@
+.header-N {
+  width: 100%;
+  height: 30vh;
+  background-color: rgb(91, 53, 127);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-N span {
+  font-size: 40px;
+  font-weight: 500;
+}

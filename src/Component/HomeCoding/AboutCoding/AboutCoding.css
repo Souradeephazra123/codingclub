@@ -1,0 +1,30 @@
+.about-coding {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2rem 5rem;
+}
+.about-coding .about-coding-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.about-coding .about-coding-content {
+  width: 450px;
+}
+
+.about-coding .about-coding-content p {
+  line-height: 2rem;
+}
+
+.about-coding .about-coding-content p:nth-of-type(1) {
+  font-size: 30px;
+  font-weight: 400;
+  text-decoration: underline;
+  color: rgb(120, 54, 200);
+}
